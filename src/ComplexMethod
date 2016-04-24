@@ -1,0 +1,14 @@
+public class ComplexMethod {
+	
+    public String toEngLish(int i) {
+        if (i == 1) {
+            return "One";
+        } else if (i == 2) {
+            return "Two";
+        } else if (i > 6) {
+            throw new NotImplementedException();
+        }
+        return null;
+    }
+	
+}
